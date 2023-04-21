@@ -32,4 +32,8 @@ public class Books {
     {
         return publishers;
     }
+    public void setbookName(String bookName)
+    {
+        this.bookName=bookName;
+    }
 }
