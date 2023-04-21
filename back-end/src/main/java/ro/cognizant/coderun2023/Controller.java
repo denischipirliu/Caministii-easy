@@ -53,7 +53,7 @@ public class Controller {
                 = Optional.ofNullable(
                 repo.findBybookName(bookName));
 
-        if (!bookRepo.isPresent())
+        if (bookRepo.isEmpty())
             return ResponseEntity
                     .notFound()
                     .build();
