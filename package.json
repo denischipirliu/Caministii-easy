@@ -1,0 +1,14 @@
+{
+  "name": "caministii-easy",
+  "version": "1.0.0",
+  "description": "Welcome to codeRun 2023.  \r This readme file servers as a short guide for getting started and some useful instructions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^15.2.6"
+  }
+}
